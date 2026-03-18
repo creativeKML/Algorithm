@@ -6,7 +6,6 @@ for _ in range(T):
     
     result = ""
     
-    for w in S:
-        result += w * R
-        
+    for w in S :
+        result += w*R
     print(result)
